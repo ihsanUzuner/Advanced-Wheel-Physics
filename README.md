@@ -1,22 +1,14 @@
 # Dynamic Wheel Scanner for Unity
 
-Unity için geliştirilmiş, fizik tabanlı gelişmiş bir tekerlek ve zemin tarama sistemi. Raycast ve Boxcast yöntemlerini hibrit kullanarak lastik genişliğini, batma miktarını (penetration) ve zemin eğimini hesaplar.
+A physics-based wheel and ground scanning system developed for Unity.
 
-## Özellikler
+## Features
 
-* **Çoklu Dilim (Multi-Slice) Tarama:** Tekerleğin sadece merkezinden değil, genişliği boyunca (yanlardan) da tarama yaparak gerçekçi zemin teması sağlar.
-* **Ağırlıklı Normal Hesaplama:** Zemin yüzeyinin normalini, lastiğin batma miktarına göre ağırlıklandırarak yumuşatır. Bu sayede engebeli arazilerde titreme yapmaz.
-* **Görsel Hata Ayıklama (Gizmos):** Işınları, vuruş noktalarını ve hesaplanan normalleri Unity Editör penceresinde renkli olarak gösterir.
-* **UPM Uyumlu:** Unity Package Manager ile direkt kurulabilir.
+* **Primary Objective:** While the ultimate goal is to achieve detailed collision detection using a fully dynamic BoxCast structure and process this data via shaders, this initial version is designed specifically to resolve the limitations of single-raycast systems.
+* **Multi-Slice Scanning:** Ensures realistic ground contact by scanning not just the wheel center, but across its entire width.
+* **Weighted Normal Calculation:** Smooths the ground surface normal by weighting it based on the tire's penetration depth.
+* **UPM Ready:** Can be installed directly via Unity Package Manager.
 
-## Kurulum (Installation)
 
-Bu paketi projenize eklemek için:
 
-1.  Unity'de **Window > Package Manager** menüsünü açın.
-2.  Sol üstteki **"+"** butonuna tıklayın.
-3.  **"Add package from git URL..."** seçeneğini seçin.
-4.  Aşağıdaki linki yapıştırın ve **Add** butonuna basın:
-
-```text
-[https://github.com/KULLANICI_ADIN/REPO_ADIN.git](https://github.com/KULLANICI_ADIN/REPO_ADIN.git)
+https://github.com/ihsanUzuner/Advanced-Wheel-Physics.git
