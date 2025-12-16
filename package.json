@@ -1,0 +1,13 @@
+{
+  "name": "com.ihsanUzuner.wheelscanner",
+  "displayName": "Dynamic Wheel Scanner",
+  "version": "1.0.0",
+  "description": "Fizik tabanlı tekerlek ve zemin tarama sistemi.",
+  "unity": "2021.3",
+  "author": {
+    "name": "ihsan uzuner",
+    "email": "ihsan.uznr@gmail.com",
+    "url": "https://github.com/ihsanUzuner"
+  },
+  "dependencies": {}
+}
